@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;500&family=Montserrat:wght@300;900&display=swap');
+
+:root{
+	--color-negro:#333;
+	--fondo-top:#2c2e30;
+	--header:#3b4044;
+	--color-primario:#9c86b8;
+	--color-contenido:#808080;
+	--color-titulos:#39454d;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color: #212529;
+	
+}
+
+a{
+	font-family: 'Barlow Condensed', sans-serif;	
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #9c86b8 !important;
+}
+
+.carousel-caption{
+	display: grid;
+	align-items:flex-end;
+	height: 100%;
+	text-align:left;
+	
+}
+
+.btn-primary{
+	background-color: #9080ac;
+	border: 0;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.btn-primary:hover{
+	background-color: #513c7a;
+	color:#FFFFFF;
+}
+
+header{
+	background-color: #9c86b8; 
+}
+
+#intro{
+	background-color:#fff;
+}
+
+#intro i{
+	font-size: 40px;
+	background-color: #efefef;
+	width: 80px;
+	height:80px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 100%;
+	color: var(--color-primario);
+	
+}
+
+footer{
+	background: #131313;
+}
+
+
+
